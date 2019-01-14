@@ -11,7 +11,7 @@ class Navigation extends Component {
     const footerLinks = LocalTitle !== "About";
     return (
       <NavigationDrawer
-        drawerTitle={config.siteTitle}
+        drawerTitle={config.navTitle}
         toolbarTitle={LocalTitle}
         contentClassName="main-content"
         navItems={GetNavList(config)}

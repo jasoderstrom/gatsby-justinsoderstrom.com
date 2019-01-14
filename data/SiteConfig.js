@@ -1,5 +1,5 @@
 module.exports = {
-  siteTitle: "Justin Soderstrom: Justin Soderstrom", // Site title.
+  siteTitle: "Justin Soderstrom's Blog", // Site title.
   siteTitleShort: "Justin S Blog", // Short site title for homescreen (PWA). Preferably should be under 12 characters to prevent truncation.
   siteTitleAlt: "Justin Soderstrom's Blog", // Alternative site title for SEO.
   siteLogo: "/logos/logo-1024.png", // Logo used for SEO and manifest.
@@ -10,7 +10,7 @@ module.exports = {
   siteRss: "/rss.xml", // Path to the RSS file.
   siteFBAppID: "562050787592905", // FB Application ID for using app insights
   siteGATrackingID: "UA-104918080-1", // Tracking code ID for google analytics.
-  disqusShortname: "justinsoderstrom.com", // Disqus shortname.
+  disqusShortname: "justinsoderstrom", // Disqus shortname.
   postDefaultCategoryID: "Tech", // Default category for posts.
   dateFromFormat: "MM-DD-YYYY", // Date format used in the frontmatter.
   dateFormat: "MM/DD/YYYY", // Date format for display.
@@ -38,6 +38,6 @@ module.exports = {
       iconClassName: "fa fa-envelope"
     }
   ],
-  navTitle: "Justin Soderstrom", // Title in the navigation bar.
+  navTitle: "Justin's Blog", // Title in the navigation bar.
   copyright: "Copyright © 2019. Justin Soderstrom CC BY 4.0" // Copyright string for the footer of the website and RSS feed.
 };
