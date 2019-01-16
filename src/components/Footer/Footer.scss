@@ -53,6 +53,10 @@
       color: inherit;
       text-align: center;
       margin: 0;
+
+      a {
+        color: $md-tertiary-color;
+      }
     }
   }
 }
