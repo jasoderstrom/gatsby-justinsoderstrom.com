@@ -29,8 +29,13 @@
       @media (max-width: 640px - 1px) {
         display: none;
       }
+
       flex: 1;
       justify-content: center;
+    }
+
+    .md-btn {
+      color: inherit;
     }
 
     .based-on {
