@@ -43,6 +43,6 @@ module.exports = {
       iconClassName: "fa fa-rss"
     }
   ],
-  navTitle: "Justin's Blog", // Title in the navigation bar.
+  navTitle: "Justin Soderstrom", // Title in the navigation bar.
   copyright: "Copyright © 2019. Justin Soderstrom CC BY 4.0" // Copyright string for the footer of the website and RSS feed.
 };
