@@ -36,6 +36,11 @@ module.exports = {
       label: "Email",
       url: "mailto:justin@justinsoderstrom.com",
       iconClassName: "fa fa-envelope"
+    },
+    {
+      label: "Subscribe",
+      url: "/rss.xml",
+      iconClassName: "fa fa-rss"
     }
   ],
   navTitle: "Justin's Blog", // Title in the navigation bar.
