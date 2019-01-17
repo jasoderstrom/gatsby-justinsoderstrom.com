@@ -4,7 +4,12 @@ backend:
   repo: jasoderstrom/gatsby-justinsoderstrom.com # Repo for pushing new commits. Make sure to replace with your repo!
   publish_mode: editorial_workflow # Enables the editorial workflow
 
-media_folder: static/assets
+media_library:
+  name: cloudinary
+  config:
+    cloud_name: 
+    api_key: 
+    username: 
 public_folder: assets
 
 collections:
