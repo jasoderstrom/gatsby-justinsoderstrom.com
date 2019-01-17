@@ -1,6 +1,6 @@
 module.exports = {
   siteTitle: "Justin Soderstrom | Full Stack Software Engineer", // Site title.
-  siteTitleShort: "Justin S", // Short site title for homescreen (PWA). Preferably should be under 12 characters to prevent truncation.
+  siteTitleShort: "Justin Soderstrom", // Short site title for homescreen (PWA). Preferably should be under 12 characters to prevent truncation.
   siteTitleAlt: "Justin Soderstrom's Blog", // Alternative site title for SEO.
   siteLogo: "/logos/logo-1024.png", // Logo used for SEO and manifest.
   siteUrl: "https://justinsoderstrom.com", // Domain of your website without pathPrefix.
