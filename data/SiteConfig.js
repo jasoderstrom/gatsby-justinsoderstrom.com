@@ -1,6 +1,6 @@
 module.exports = {
-  siteTitle: "Justin Soderstrom's Blog", // Site title.
-  siteTitleShort: "Justin S Blog", // Short site title for homescreen (PWA). Preferably should be under 12 characters to prevent truncation.
+  siteTitle: "Justin Soderstrom | Full Stack Software Engineer", // Site title.
+  siteTitleShort: "Justin S", // Short site title for homescreen (PWA). Preferably should be under 12 characters to prevent truncation.
   siteTitleAlt: "Justin Soderstrom's Blog", // Alternative site title for SEO.
   siteLogo: "/logos/logo-1024.png", // Logo used for SEO and manifest.
   siteUrl: "https://justinsoderstrom.com", // Domain of your website without pathPrefix.
@@ -15,11 +15,12 @@ module.exports = {
   dateFromFormat: "MM-DD-YYYY", // Date format used in the frontmatter.
   dateFormat: "MM/DD/YYYY", // Date format for display.
   userName: "Justin Soderstrom", // Username to display in the author segment.
-  userTwitter: "", // Optionally renders "Follow Me" in the UserInfo segment.
+  userTwitter: "jasoderstrom", // Optionally renders "Follow Me" in the UserInfo segment.
   userLocation: "South Dakota, USA", // User location to display in the author segment.
-  userAvatar: "https://api.adorable.io/avatars/150/test.png", // User avatar to display in the author segment.
+  userAvatar: "/logos/avatar.png", // User avatar to display in the author segment.
   userDescription:
-    "Software engineer passionate about technology", // User description to display in the author segment.
+    `Hi, I'm Justin Soderstrom. I'm a full stack software engineer who is passionate about all things web. I tend to spend a lot of time playing with shiny new technologies, usually somewhere within the Microsoft realm.
+    I use this blog to document what I learn and know and perhaps help someone along the way. However this blog, its content and opinions are entirely my own unless stated otherwise.`, // User description to display in the author segment.
   // Links to social profiles/projects you want to display in the author segment/navigation bar.
   userLinks: [
     {
