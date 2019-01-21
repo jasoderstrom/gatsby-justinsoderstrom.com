@@ -7,9 +7,9 @@ backend:
 media_library:
   name: cloudinary
   config:
-    cloud_name: 
-    api_key: 
-    username: 
+    cloud_name: justinsoderstrom 
+    api_key: 616713912117222
+    username: justin@justinsoderstrom.com
 public_folder: assets
 
 collections:
