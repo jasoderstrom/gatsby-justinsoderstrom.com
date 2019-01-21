@@ -6,13 +6,33 @@ import GetNavList from "./NavList";
 import "./Navigation.scss";
 
 class Navigation extends Component {
+ 
+  constructor(props) {
+    super(props);
+    this.state = {isMobile: window.innerWidth < 640};
+  }
+  
+  componentDidMount() {
+    window.addEventListener('resize', () => {
+      this.setState({
+        isMobile: window.innerWidth < 640
+      })
+    }, false);
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener("resize");
+  }
+
   render() {
-    const { children, config, LocalTitle } = this.props;
+    const { children, config, LocalTitle, LocalTitleShort } = this.props;
+    const { isMobile } = this.state;
     const footerLinks = LocalTitle !== "About";
+    
     return (
       <NavigationDrawer
-        drawerTitle={config.siteTitle}
-        toolbarTitle={LocalTitle}
+        drawerTitle={config.navTitle}
+        toolbarTitle={isMobile ? LocalTitleShort : LocalTitle}
         contentClassName="main-content"
         navItems={GetNavList(config)}
         mobileDrawerType={NavigationDrawer.DrawerTypes.TEMPORARY}

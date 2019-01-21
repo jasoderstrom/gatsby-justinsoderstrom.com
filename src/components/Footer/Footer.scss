@@ -4,14 +4,15 @@
   justify-content: center;
   align-content: center;
   background-color: $md-primary-color;
-  padding: 10px 5px 5px;
+  padding: 15px 5px 5px;
 
   .notice-container {
     display: flex;
     align-content: center;
     align-items: center;
-    margin-top: 25px;
-
+    margin-top: 10px;
+    padding-bottom: 10px;
+    
     .copyright {
       display: flex;
       flex: 1;
@@ -22,7 +23,7 @@
       }
     }
 
-    .rss {
+    .link {
       display: flex;
 
       @media (max-width: 640px - 1px) {
@@ -31,6 +32,10 @@
 
       flex: 1;
       justify-content: center;
+    }
+
+    .md-btn {
+      color: inherit;
     }
 
     .based-on {
@@ -45,9 +50,13 @@
     }
 
     h4 {
-      color: $md-secondary-color;
+      color: inherit;
       text-align: center;
       margin: 0;
+
+      a {
+        color: $md-tertiary-color;
+      }
     }
   }
 }
