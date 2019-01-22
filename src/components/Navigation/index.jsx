@@ -9,19 +9,25 @@ class Navigation extends Component {
  
   constructor(props) {
     super(props);
-    this.state = {isMobile: window.innerWidth < 640};
+    this.state = typeof window !== 'undefined' ? {isMobile: window.innerWidth < 640, isClient: true} : {isMobile: false, isClient: false};
   }
   
   componentDidMount() {
-    window.addEventListener('resize', () => {
-      this.setState({
-        isMobile: window.innerWidth < 640
-      })
-    }, false);
+    const { isClient } = this.state;
+    if (isClient) {
+      window.addEventListener('resize', () => {
+        this.setState({
+          isMobile: window.innerWidth < 640
+        })
+      }, false);
+    }
   }
 
   componentWillUnmount() {
-    window.removeEventListener("resize");
+    const { isClient } = this.state;
+    if (isClient) {
+      window.removeEventListener("resize");
+    }
   }
 
   render() {
