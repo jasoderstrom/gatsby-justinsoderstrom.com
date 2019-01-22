@@ -2,7 +2,8 @@ backend:
   name: github # Refer to https://www.netlifycms.org/docs/authentication-backends/ for auth backend list and instructions
   branch: production # Branch to update
   repo: jasoderstrom/justinsoderstrom.com # Repo for pushing new commits. Make sure to replace with your repo!
-  publish_mode: editorial_workflow # Enables the editorial workflow
+
+publish_mode: editorial_workflow # Enables the editorial workflow
 
 media_library:
   name: cloudinary
