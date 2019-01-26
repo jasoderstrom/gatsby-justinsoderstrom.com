@@ -19,10 +19,15 @@ module.exports = {
   userLocation: "South Dakota, USA", // User location to display in the author segment.
   userAvatar: "/logos/avatar.png", // User avatar to display in the author segment.
   userDescription:
-    `Hi, I'm Justin Soderstrom. I'm a full stack software engineer who is passionate about all things web. I tend to spend a lot of time playing with shiny new technologies, usually somewhere within the Microsoft realm.
-    I use this blog to document what I learn and know and perhaps help someone along the way. However this blog, its content and opinions are entirely my own unless stated otherwise.`, // User description to display in the author segment.
+    `Hi, I'm Justin Soderstrom. I'm a full stack software engineer who is passionate about all things web, with a particular interest in the .NET stack.
+    I use this blog to document what I learn and perhaps help someone along the way. If this blog does end up helping you, please consider buying me a coffee by clicking on the cup logo below!`, // User description to display in the author segment.
   // Links to social profiles/projects you want to display in the author segment/navigation bar.
   userLinks: [
+    {
+      label: "Support",
+      url: "https://ko-fi.com/justinsoderstrom",
+      iconClassName: "fa fa-coffee"
+    },
     {
       label: "GitHub",
       url: "https://github.com/jasoderstrom",
