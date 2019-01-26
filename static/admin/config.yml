@@ -5,12 +5,7 @@ backend:
 
 publish_mode: editorial_workflow # Enables the editorial workflow
 
-media_library:
-  name: cloudinary
-  config:
-    cloud_name: justinsoderstrom 
-    api_key: 616713912117222
-    username: justin@justinsoderstrom.com
+media_folder: static/assets
 public_folder: assets
 
 collections:
