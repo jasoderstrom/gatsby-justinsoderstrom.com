@@ -5,7 +5,7 @@ import Navigation from "../components/Navigation";
 import config from "../../data/SiteConfig";
 import "./index.scss";
 import "./global.scss";
-import Favicon from '../favicon.ico';
+import Favicon from '../../static/logos/favicon.ico';
 
 export default class MainLayout extends React.Component {
   render() {
