@@ -3,8 +3,7 @@ module.exports = {
   siteTitleShort: "Justin Soderstrom", // Short site title for homescreen (PWA). Preferably should be under 12 characters to prevent truncation.
   siteTitleAlt: "Justin Soderstrom's Blog", // Alternative site title for SEO.
   siteLogo: "/logos/logo-1024.png", // Logo used for SEO and manifest.
-  siteUrl: "https://justinsoderstrom.com", // Domain of your website without pathPrefix.
-  pathPrefix: "/", // Prefixes all links. For cases when deployed to example.github.io/gatsby-material-starter/.
+  siteUrl: "https://justinsoderstrom.com", // Domain of your website
   fixedFooter: false, // Whether the footer component is fixed, i.e. always visible
   siteDescription: "Thoughts and ideas by Justin Soderstrom", // Website description used for RSS feeds/meta description tag.
   siteRss: "/rss.xml", // Path to the RSS file.
