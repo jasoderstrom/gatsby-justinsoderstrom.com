@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-material",
-  "description": "GatsbyJS Material Blog theme.",
-  "version": "2.0.0",
-  "author": "Ruben Harutyunyan <vagr9k@gmail.com>",
+  "name": "gatsby-justinsoderstrom.com",
+  "description": "justinsoderstrom.com GatsbyJS theme.",
+  "version": "1.0.0",
+  "author": "Justin Soderstrom <justin@justinsoderstrom.com>",
   "dependencies": {
     "font-awesome": "^4.7.0",
     "gatsby": "2.0.40",
