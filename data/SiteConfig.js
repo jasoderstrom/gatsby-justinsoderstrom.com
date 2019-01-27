@@ -1,31 +1,34 @@
 module.exports = {
-  siteTitle: "Justin Soderstrom | Full Stack Software Engineer", // Site title.
-  siteTitleShort: "Justin Soderstrom", // Short site title for homescreen (PWA). Preferably should be under 12 characters to prevent truncation.
-  siteTitleAlt: "Justin Soderstrom's Blog", // Alternative site title for SEO.
+  siteTitle: "justinsoderstrom.com Theme", // Site title.
+  siteTitleShort: "justinsoderstrom.com", // Short site title for homescreen (PWA). Preferably should be under 12 characters to prevent truncation.
+  siteTitleAlt: "Theme for justinsoderstrom.com", // Alternative site title for SEO.
   siteLogo: "/logos/logo-1024.png", // Logo used for SEO and manifest.
-  siteUrl: "https://justinsoderstrom.com", // Domain of your website without pathPrefix.
-  pathPrefix: "/", // Prefixes all links. For cases when deployed to example.github.io/gatsby-material-starter/.
+  siteUrl: "https://justinsoderstrom.com", // Domain of your website
   fixedFooter: false, // Whether the footer component is fixed, i.e. always visible
-  siteDescription: "Thoughts and ideas by Justin Soderstrom", // Website description used for RSS feeds/meta description tag.
+  siteDescription: "Demo website for justinsoderstrom.com", // Website description used for RSS feeds/meta description tag.
   siteRss: "/rss.xml", // Path to the RSS file.
-  siteFBAppID: "562050787592905", // FB Application ID for using app insights
-  siteGATrackingID: "UA-104918080-1", // Tracking code ID for google analytics.
-  disqusShortname: "justinsoderstrom", // Disqus shortname.
+  siteFBAppID: "", // FB Application ID for using app insights
+  siteGATrackingID: "", // Tracking code ID for google analytics.
+  disqusShortname: "", // Disqus shortname.
   postDefaultCategoryID: "Tech", // Default category for posts.
   dateFromFormat: "MM-DD-YYYY", // Date format used in the frontmatter.
   dateFormat: "MM/DD/YYYY", // Date format for display.
-  userName: "Justin Soderstrom", // Username to display in the author segment.
-  userTwitter: "jasoderstrom", // Optionally renders "Follow Me" in the UserInfo segment.
+  userName: "John Doe", // Username to display in the author segment.
+  userTwitter: "", // Optionally renders "Follow Me" in the UserInfo segment.
   userLocation: "South Dakota, USA", // User location to display in the author segment.
-  userAvatar: "/logos/avatar.png", // User avatar to display in the author segment.
+  userAvatar: "https://api.adorable.io/avatars/150/test.png", // User avatar to display in the author segment.
   userDescription:
-    `Hi, I'm Justin Soderstrom. I'm a full stack software engineer who is passionate about all things web. I tend to spend a lot of time playing with shiny new technologies, usually somewhere within the Microsoft realm.
-    I use this blog to document what I learn and know and perhaps help someone along the way. However this blog, its content and opinions are entirely my own unless stated otherwise.`, // User description to display in the author segment.
+    `Hi, I'm John Doe. I like writing about programming! Support me plz`, // User description to display in the author segment.
   // Links to social profiles/projects you want to display in the author segment/navigation bar.
   userLinks: [
     {
+      label: "Support",
+      url: "https://ko-fi.com/",
+      iconClassName: "fa fa-coffee"
+    },
+    {
       label: "GitHub",
-      url: "https://github.com/jasoderstrom",
+      url: "https://github.com/gatsby-justinsoderstrom.com",
       iconClassName: "fa fa-github"
     },
     {
@@ -44,6 +47,6 @@ module.exports = {
       iconClassName: "fa fa-rss"
     }
   ],
-  navTitle: "Justin Soderstrom", // Title in the navigation bar.
+  navTitle: "justinsoderstrom.com Theme", // Title in the navigation bar.
   copyright: "Copyright © 2019. Justin Soderstrom CC BY 4.0" // Copyright string for the footer of the website and RSS feed.
 };

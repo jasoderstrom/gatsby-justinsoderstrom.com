@@ -23,20 +23,22 @@ class Disqus extends Component {
     const [, ...toasts] = this.state.toasts;
     this.setState({ toasts });
   }
+  
   notifyAboutComment() {
     const toasts = this.state.toasts.slice();
     toasts.push({ text: "New comment available!" });
     this.setState({ toasts });
   }
+
   render() {
     const { postNode, expanded } = this.props;
     if (!config.disqusShortname) {
       return null;
     }
     const post = postNode.frontmatter;
+
     const url = urljoin(
       config.siteUrl,
-      config.pathPrefix,
       postNode.fields.slug
     );
 
@@ -53,7 +55,6 @@ class Disqus extends Component {
             identifier={post.title}
             title={post.title}
             url={url}
-            category_id={post.category_id}
             onNewComment={this.notifyAboutComment}
           />
         </CardText>
